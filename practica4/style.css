@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header{
+margin: auto;
+width: 500px;
+font-family: 'Times New Roman', Times, serif;
+
+}
+ul, ol{
+    list-style: none;
+}
+.nav li a{
+background: black;
+color: blanchedalmond;
+text-decoration: none;
+padding: 10px 15px;
+display: block;
+}
+.nav li a:hover{
+    background-color: crimson;
+}
+.nav > li{
+    float: left;
+}
+.nav li ul{
+    display:none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul{
+ display: block;
+}
+.nav li ul li{
+    position: relative;
+}
+.nav li ul li ul{
+    right: -140px;
+    top: 0px;
+}
