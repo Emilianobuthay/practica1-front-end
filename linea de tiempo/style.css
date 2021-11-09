@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+
+}
+.timeline{
+position: relative;
+margin: 50px auto;
+padding: 40px 0;
+width: 1000px;
+
+}
+.timeline:before{
+content: "";
+position: absolute;
+left: 50%;
+width:2px ;
+height: 100%;
+background: brown;
+
+}
+.timeline ul{
+    margin: 0;
+    padding: 0;
+}
+.timeline ul li{
+    list-style: none;
+    
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+
+}
+.timeline ul li:nth-child(add){
+    float: left;
+    text-align: right;
+    clear: both;
+}
+.timeline ul li:nth-child(even){
+    float: right;
+    text-align: left;
+    clear: both;
+}
